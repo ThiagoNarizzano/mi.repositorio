@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>ThiagoFitness</title>    
 </head>
 <body> 
@@ -27,16 +27,16 @@
                             <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="log-in-register/log-in.html">Log in</a>
+                            <a class="nav-link" href="pages/log-in.html">Log in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="preguntas-frecuentes/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                            <a class="nav-link" href="pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="planes-entrenamientos/planes-entrenamientos.html">Planes de entrenamiento</a>
+                            <a class="nav-link" href="pages/planes-entrenamientos.html">Planes de entrenamiento</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactanos/contactanos.html">Contactanos</a>
+                            <a class="nav-link" href="pages/contactanos.html">Contactanos</a>
                         </li>
                     </ul>
                 </div>
@@ -47,6 +47,7 @@
 
 
     <main>
+        
         <section>
             <article class="wrap-texto-bienvenida">
                 <div class="texto-bienvenida">
@@ -55,16 +56,20 @@
                 </div>
             </article>
             <article>
-                <ul class="videos-web">
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/OsGafYOimLY?si=Ctod5-YFHxOlN3-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/-zIF8Ik6kSg?si=KaqwmiMGlugz3Aju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
-                </ul>            
+                <div class="videoweb-contenedor">
+                    <iframe class="video-web1" width="560" height="315" src="https://www.youtube.com/embed/OsGafYOimLY?si=Ctod5-YFHxOlN3-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="vdeo-web2" width="560" height="315" src="https://www.youtube.com/embed/-zIF8Ik6kSg?si=KaqwmiMGlugz3Aju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>         
             </article>
         </section>
-        <section id="carouselExample" class="carousel slide w-50 mt-0 d-flex p-2">
-            <article class="carousel-inner" class="d-flex justify-content-center">
+        
+        <section id="carouselExample" class="carousel slide w-51 mt-0">
+            <article class="carousel-inner">
               <div class="carousel-item active">
-                <img src="Media/profe-foto.jpg" class="d-block w-100" alt="Profesor">
+                <img src="Media/fotoccarousel.png" class="d-block w-100" alt="Profesor">
+              </div>
+              <div class="carousel-item">
+                <img src="Media/profe-foto.jpg" class="d-block w-100" alt="Profesora">
               </div>
               <div class="carousel-item">
                 <img src="Media/profe-foto-f.jpg" class="d-block w-100" alt="Profesora">
@@ -79,12 +84,7 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
         </section>
-        <section class="texto-profe">
-            <h3>Nuestros profesores son unos apasionados y altamente calificados instructores de rutinas de gimnasio con una dedicación inquebrantable para ayudarte a alcanzar tus objetivos de fitness. </h3>
-            <p>Con una profunda comprensión de la anatomía y la fisiología del cuerpo humano, nuestros profesores crean programas de entrenamiento personalizados que se adaptan a las necesidades y metas individuales de sus clientes.
-                Además de su conocimiento técnico, poseen habilidades excepcionales de motivación y apoyo. Su actitud positiva y su capacidad para inspirar a sus estudiantes hacen que cada sesión sea no solo efectiva, sino también divertida.
-            </p>
-        </section>
+        
         <section>
             <article>
                 <h4> ¿QUE INCLUYEN TODOS LOS PLANES?</h4>
